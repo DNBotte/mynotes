@@ -1,7 +1,7 @@
 # Python Syntax
   
 [10. A numbered link](#10-numbered-link)
-[11. Another link](#11-Another-Link)
+[11. Another link](#11-another-link)
 
 # 2 Variables
 
