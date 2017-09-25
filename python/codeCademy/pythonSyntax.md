@@ -1,6 +1,7 @@
 # Python Syntax
   
 [10. A numbered link](#10-numbered-link)
+[11. Another link](#11-Another-Link)
 
 # 2 Variables
 
@@ -34,3 +35,5 @@ multi-line comment
 ### another-link
 
 # 10 numbered link
+
+# 11 Another Link
