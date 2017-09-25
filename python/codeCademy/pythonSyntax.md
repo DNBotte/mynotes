@@ -35,6 +35,6 @@ multi-line comment
 ## 11 Exponentiation
 
 ```python
-2 ** 3
->>>8
+>>>2 ** 3
+8
 ```
