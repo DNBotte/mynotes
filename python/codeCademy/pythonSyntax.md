@@ -4,8 +4,8 @@
 [3. Booleans](#3.)  
 [4. Comments](#Comments)  
 5. [Test](#Test)  
-[Create an anchor](#anchors-in-markdown)
-[Another link](###another-link)
+[Create an anchor](#anchors-in-markdown)  
+[Another link](#another-link)
 
 #2. Variables
 
