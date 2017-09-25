@@ -61,7 +61,7 @@ layout: layoutName
 ### Notice:
 
 * The top of the page must have 3 dashes above and below the layout key
-* There is a colon at the end of layout
+* There is a colon at the end of *layout*
 * There is a space between *layout:* and the name of the layout
 * The code above must be written on the first, second, and third line (respectively) in order to work
 * Spacing and punctuation must be precise or it will not work
