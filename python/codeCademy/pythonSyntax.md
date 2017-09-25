@@ -1,14 +1,13 @@
 # Python Syntax
-
+  
+[Create an anchor](#anchors-in-markdown)  
+[Another link](#another-link)  
 [2. Variables](#2-Variables)  
 [3. Booleans](#3-Booleans)  
 [4. Comments](#4-Comments)  
-5. [Test](#5-Test)  
-[Create an anchor](#anchors-in-markdown)  
-[Another link](#another-link)  
 [10. A numbered link](#10-numbered-link)
 
-#2 Variables
+# 2 Variables
 
 ```python
 variableName = value
