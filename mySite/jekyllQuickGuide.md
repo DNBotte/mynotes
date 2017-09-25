@@ -2,6 +2,8 @@
 
 **Note:** This is just a quick guide for my personal use as I frequently do this to test things out
 
+[create an anchor](#anchors-in-markdown)
+
 ### Prerequisites:
 
 * Domain Registered
@@ -67,3 +69,5 @@ layout: layoutName
 * There is a space between *layout:* and the name of the layout
 * The code above must be written on the first, second, and third line (respectively) in order to work
 * Spacing and punctuation must be precise or it will not work
+
+#anchors-in-markdown
