@@ -24,10 +24,10 @@ False
 
 # single line comment
 
-"""
+'''
 multi-line comment
-(uses double-quotes)
-"""
+(uses single-quotes)
+'''
 
 ```
 
