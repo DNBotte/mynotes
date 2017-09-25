@@ -16,10 +16,10 @@
 ## III. Cutsomize
 
 **1.** Rename index.html (this is just a template based on the default layout)  
-**Note:** If homepage is unique/has no includes, upload as is.
-Same for other unique pages.
-**2.** Upload includes as .html into the _includes directory
-**3.** Upload layout and name it as layoutName.html into the layout directory
+**Note:** If homepage is unique/has no includes, upload as is.  
+Same for other unique pages.  
+**2.** Upload includes as .html into the _includes directory  
+**3.** Upload layout and name it as layoutName.html into the layout directory  
 ### Example Layout:
 ```html
 <!DOCTYPE html>
