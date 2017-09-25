@@ -1,6 +1,9 @@
+# MARKDOWN NOTES
+## Based on Experience and Read/Search/Ask
+
 [Anchored Intra-Page Links](#anchored-intrapage-links)
 
-[Small Heading](#small-heading)
+
 
 # Anchored Intrapage Links
 
@@ -11,7 +14,7 @@
 * no spaces - replace with dash
 * no dots/decimals/periods/full stops
 * all characters must be lowercase (it's ok for element to have uppercase letters)  
-* target does not have to be single hashtag heading
+* target does not have to be single hashtag heading - see [Small Heading](#small-heading)  
 
 **3.** Create target but **space must be between hashtag and text**  
 **Reminder:** For lists: two spaces after each item to break to next line  
@@ -23,12 +26,6 @@ lorem ispum
 and all that jazz
 
 # 5 Anchored Links
-```
+``` 
 
-[2. Variables](#2-variables)  
-[3. Booleans](#3-booleans)  
-[4. Comments](#4-comments)  
-[10. A numbered link](#10-numbered-link)    
-[11. Another link](#11-another-link)  
-
-## Small Heading
+### Small Heading
