@@ -31,6 +31,6 @@ multi-line comment
 
 ```
 
-# 5.Test
+# 5Test
 
 # anchors-in-markdown
