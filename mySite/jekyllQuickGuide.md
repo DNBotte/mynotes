@@ -7,9 +7,9 @@
 
 ## I. Setting Up the Site's Repository
 
-**1.** Create a New Repository named: "username.github.io"
-**2.** Enter url on settings page
-**3.** Create CNAME file (depends on hosting site's instructions)
+**1.** Create a New Repository named: "username.github.io"  
+**2.** Enter url on settings page  
+**3.** Create CNAME file (depends on hosting site's instructions)  
 
 ## II. Add Jekyll Files
 
