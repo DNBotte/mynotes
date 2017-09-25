@@ -3,6 +3,7 @@
 **Note:** This is just a quick guide for my personal use as I frequently do this to test things out
 
 [create an anchor](#anchors-in-markdown)
+[2nd anchor](###anchorTwo)
 
 ### Prerequisites:
 
@@ -71,3 +72,4 @@ layout: layoutName
 * Spacing and punctuation must be precise or it will not work
 
 # anchors-in-markdown
+###anchorTwo
