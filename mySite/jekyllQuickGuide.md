@@ -15,7 +15,7 @@
 
 ## III. Cutsomize
 
-**1.** Rename index.html (this is just a template based on the default layout)
+**1.** Rename index.html (this is just a template based on the default layout)  
 **Note:** If homepage is unique/has no includes, upload as is.
 Same for other unique pages.
 **2.** Upload includes as .html into the _includes directory
