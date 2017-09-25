@@ -1,10 +1,5 @@
 # Python Syntax
   
-[Create an anchor](#anchors-in-markdown)  
-[Another link](#another-link)  
-[2. Variables](#2-Variables)  
-[3. Booleans](#3-Booleans)  
-[4. Comments](#4-Comments)  
 [10. A numbered link](#10-numbered-link)
 
 # 2 Variables
