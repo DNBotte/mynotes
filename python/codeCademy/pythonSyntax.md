@@ -3,7 +3,7 @@
 [2. Variables](#2.-Variables)  
 [3. Booleans](#3.)  
 [4. Comments](#Comments)  
-[5. Test](#Test)
+[5. Test](#5.-Test)
 
 #2. Variables
 
@@ -30,4 +30,4 @@ multi-line comment
 
 ```
 
-#5. #Test
+#5. Test
