@@ -1,5 +1,7 @@
 # The Fastest Way to Launch a Static Website on GitHub Pages Using Jekyll
 
+**Note:** This is just a quick guide for my personal use as I frequently do this to test things out
+
 ### Prerequisites:
 
 * Domain Registered
