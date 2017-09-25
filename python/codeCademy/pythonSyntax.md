@@ -5,6 +5,7 @@
 [4. Comments](#Comments)  
 5. [Test](#Test)  
 [Create an anchor](#anchors-in-markdown)
+[Another link](#another-link)
 
 #2. Variables
 
@@ -34,3 +35,5 @@ multi-line comment
 # Test
 
 # anchors-in-markdown
+
+# another-link
