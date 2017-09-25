@@ -1,6 +1,9 @@
 # Python Syntax
   
-[10. A numbered link](#10-numbered-link)
+[2. Variables](#2-variables)
+[3. Booleans](#3-booleans)
+[4. Comments](#4-comments)
+[10. A numbered link](#10-numbered-link)  
 [11. Another link](#11-another-link)
 
 # 2 Variables
