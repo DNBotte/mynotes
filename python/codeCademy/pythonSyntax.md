@@ -6,7 +6,7 @@
 5. [Test](#Test)  
 [Create an anchor](#anchors-in-markdown)  
 [Another link](#another-link)  
-[A numbered link](#10numbered-link)
+[10 A numbered link](#10numbered-link)
 
 #2. Variables
 
