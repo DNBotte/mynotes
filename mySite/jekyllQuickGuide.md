@@ -70,4 +70,4 @@ layout: layoutName
 * The code above must be written on the first, second, and third line (respectively) in order to work
 * Spacing and punctuation must be precise or it will not work
 
-#anchors-in-markdown
+# anchors-in-markdown
