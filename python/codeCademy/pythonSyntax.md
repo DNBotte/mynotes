@@ -1,9 +1,9 @@
 # Python Syntax
 
-[2. Variables](#2.Variables)  
-[3. Booleans](#3.)  
-[4. Comments](#Comments)  
-5. [Test](#Test)  
+[2. Variables](#2-Variables)  
+[3. Booleans](#3-Booleans)  
+[4. Comments](#4-Comments)  
+5. [Test](#5-Test)  
 [Create an anchor](#anchors-in-markdown)  
 [Another link](#another-link)  
 [10. A numbered link](#10-numbered-link)
@@ -14,13 +14,13 @@
 variableName = value
 ```
 
-#3. Booleans
+# 3 Booleans
 
 ```python
 True
 ```
 
-#4 Comments
+# 4 Comments
 
 ```python
 
@@ -33,7 +33,7 @@ multi-line comment
 
 ```
 
-# Test
+# 5 Test
 
 # anchors-in-markdown
 
