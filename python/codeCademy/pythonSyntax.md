@@ -39,4 +39,4 @@ multi-line comment
 
 ### another-link
 
-# 10-numbered-link
+# 10 numbered link
