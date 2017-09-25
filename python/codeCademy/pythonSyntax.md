@@ -1,8 +1,8 @@
 # Python Syntax
 
-[2. Variables](#2. Variables)
-[3. Booleans](#3. Booleans)
-[4. Comments](#4. Comments)
+[2. Variables](#2.Variables)
+[3. Booleans](#3.Booleans)
+[4. Comments](#4.Comments)
 
 #2 Variables
 
