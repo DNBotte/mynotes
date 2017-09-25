@@ -5,7 +5,7 @@
 [4. Comments](#Comments)  
 5. [Test](#Test)  
 [Create an anchor](#anchors-in-markdown)
-[Another link](#another-link)
+[Another link](###another-link)
 
 #2. Variables
 
