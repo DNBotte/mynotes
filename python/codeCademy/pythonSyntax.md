@@ -1,6 +1,6 @@
 # Python Syntax
 
-[2. Variables](#2. Variables)  
+[2. Variables](#2.-Variables)  
 [3. Booleans](#3.)  
 [4. Comments](#Comments)  
 [5. Test](#Test)
