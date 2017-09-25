@@ -8,7 +8,7 @@
 [Another link](#another-link)  
 [10. A numbered link](#10-numbered-link)
 
-#2. Variables
+#2 Variables
 
 ```python
 variableName = value
