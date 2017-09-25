@@ -4,6 +4,7 @@
 [3. Booleans](#3.)  
 [4. Comments](#Comments)  
 [5. Test](#5.Test)
+[Create an anchor](#anchors-in-markdown)
 
 #2. Variables
 
@@ -31,3 +32,5 @@ multi-line comment
 ```
 
 # 5.Test
+
+#anchors-in-markdown
