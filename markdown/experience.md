@@ -30,7 +30,7 @@ and all that jazz
 
 ### Small Heading
 
-[5. Creating and Highlighting Code Blocks](#6-code-blocks)
+[6. Creating and Highlighting Code Blocks](#6-code-blocks)
 
 # Creating and Highlighting Code Blocks
 
