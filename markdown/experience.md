@@ -30,8 +30,8 @@ and all that jazz
 
 ### Small Heading
 
-[6. Creating and Highlighting Code Blocks](#6-code-blocks)
+# Code Blocks
 
-# Creating and Highlighting Code Blocks
+### Creating and Displaying Code in Markdown
 
 For now stick with: https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
