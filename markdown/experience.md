@@ -3,7 +3,7 @@
 
 [Anchored Intra-Page Links](#anchored-intrapage-links)
 
-
+[Creating and Highlighting Code Blocks](#code-blocks)
 
 # Anchored Intrapage Links
 
@@ -29,3 +29,9 @@ and all that jazz
 ``` 
 
 ### Small Heading
+
+[5. Creating and Highlighting Code Blocks](#6-code-blocks)
+
+# Creating and Highlighting Code Blocks
+
+For now stick with: https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
