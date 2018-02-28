@@ -11,3 +11,6 @@
 3. With the Home ribbon selected, to the far right: click Fill (found below auto sum)
 
 4. Select Flash Fill (at bottom of list)
+
+
+More on this at [Real Excel power users know these 11 tricks](https://www.pcworld.com/article/2109084/real-excel-power-users-know-these-11-tricks.html)
