@@ -14,3 +14,18 @@
 
 
 More on this at [Real Excel power users know these 11 tricks](https://www.pcworld.com/article/2109084/real-excel-power-users-know-these-11-tricks.html)
+
+Dummy data to paste into a column:
+
+full name
+darth vader
+princess leia
+r2 d2
+c 3po
+luke skywalker
+obiwan kenobi
+han solo
+
+Patterned adjacent column head:
+name, full
+vader, darth
