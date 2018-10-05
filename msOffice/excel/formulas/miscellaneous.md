@@ -20,7 +20,7 @@
 
 ### VLOOKUP
 
-see (https://github.com/DNBotte/mynotes/edit/master/msOffice/excel/formulas/VLOOKUP.md)[formulas/VLOOKUP]
+see [formulas/VLOOKUP](https://github.com/DNBotte/mynotes/edit/master/msOffice/excel/formulas/VLOOKUP.md)
 
 ### HLOOKUP
 
