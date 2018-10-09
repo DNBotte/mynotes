@@ -8,7 +8,7 @@ They work kinda like loops in any other language, resembling python the most
 
 ### 2.  [Nested Loop](#Nested-Loop)
 
-[1. Basic Loop](#1-Basic-Loop)
+1. [Basic Loop](#1-Basic-Loop)
 
 ```VBA
 
@@ -33,7 +33,7 @@ Next j
 ```
 Result: cells count 1 to 10 left to right
 
-[2. Nested Loop](#2-Nested-Loop)
+2. [Nested Loop](#2-Nested-Loop)
 
 ```VBA
 
