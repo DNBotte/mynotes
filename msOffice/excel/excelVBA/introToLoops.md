@@ -33,7 +33,7 @@ Next j
 ```
 Result: cells count 1 to 10 left to right
 
-2. [Nested Loop](#2-Nested-Loop)
+2. #Nested-Loop
 
 ```VBA
 
