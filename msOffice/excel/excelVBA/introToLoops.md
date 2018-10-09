@@ -6,7 +6,7 @@ They work kinda like loops in any other language, resembling python the most
 
 ### 1. [Basic Loop](#Basic-Loop)
 
-### 2.  [Nested Loop](#Nested-Loop)
+[Nested Loop](#Nested-Loop)
 
 1. [Basic Loop](#1-Basic-Loop)
 
