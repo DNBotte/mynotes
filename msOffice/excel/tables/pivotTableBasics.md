@@ -32,4 +32,16 @@ Values - appear in fields
 
 Column Labels - appear on top of table
 
-Slicers
+	Example:
+
+Place Product as Row Labels for a list of products
+
+Use Price as Values to list corresponding revenue
+
+Place Months as Column Lables to spread out each product's revenue by month
+
+Labels are ordered by hiearchy
+
+	Example:
+
+Place Store in Row Labels above Product to create two tables, one for each store, or below Product to split each product between stores. This works similarly with Column Labels
