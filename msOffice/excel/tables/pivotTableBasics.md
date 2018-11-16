@@ -22,3 +22,14 @@ Launch a github repository with your own handmade set of instructions in markdow
 Note: if the sidebar does not load, right click in the pivot table area and choose "view field list"
 
 7. Repeat for columns but place in values quadrant
+
+
+Field Areas:
+
+Row Labels - appear to the left of table
+
+Values - appear in fields
+
+Column Labels - appear on top of table
+
+Slicers
