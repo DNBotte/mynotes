@@ -45,3 +45,23 @@ Labels are ordered by hiearchy
 	Example:
 
 Place Store in Row Labels above Product to create two tables, one for each store, or below Product to split each product between stores. This works similarly with Column Labels
+
+Report Filters
+
+Can be found by right clicking or using the drop down arrows
+
+Filter out things by inequalities, top 10, etc.
+
+Place Category in Report Filter then select items from drop down that appears above table
+
+Slicer
+
+1. PivotTable Tools Ribbon
+
+2. Options
+
+3. Insert Sliver (left of center between sort and refresh/change data source)
+
+4. Select Values to be filtered (works like the filter section above)
+
+5. Adjust button sizes and layouts with options on right side of ribbon
