@@ -44,3 +44,23 @@ Alternatively: INDEX MATCH
 
 =HYPERLINK(CONCATENATE(A1,C1),B1)
 =HYPERLINK(CONCATENATE("http://davidnbotte.space",C1),B1)
+
+### Split String of "firstName lastName [additional text]" into usable Outlook format of "lastName, firstName; "
+
+=CONCATENATE(MID(E2,FIND(" ",E2)+1,FIND(" ",E2,FIND(" ",E2)+1)-FIND(" ",E2)),", ",LEFT(E2,(FIND(" ",E2,1)-1)),"; ")
+
+BreakDown:
+
+Original string in cell E2
+Grab lastName with:
+
+=MID(E2,FIND(" ",E2)+1,FIND(" ",E2,FIND(" ",E2)+1)-FIND(" ",E2)
+
+Grab firstName with:
+
+=LEFT(E2,(FIND(" ",E2,1)-1)
+
+Concatenate commas and semicolon for Outlook format
+
+
+=LEFT(E2,(FIND(" ",E2,1)-1))
