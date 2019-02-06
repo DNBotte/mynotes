@@ -1,0 +1,13 @@
+Python3 On Windows
+
+cd C:\
+
+py
+
+py -3.6 -m pip install module %= only for Python 3.6 =%
+
+py -3.6 -m pip install --upgrade pip
+
+os.getcwd()
+
+os.chdir(r'C:\Users\intendedUser\Documents')
