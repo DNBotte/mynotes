@@ -3,7 +3,7 @@
 
 [Anchored Intra-Page Links](#anchored-intrapage-links)
 
-[I. Combo Funds](#combo-funds)
+[Combo Funds](#combo-funds)
 
 [Creating and Highlighting Code Blocks](#code-blocks)
 
@@ -38,4 +38,4 @@ and all that jazz
 
 For now stick with: https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
 
-# I. Combo Funds
+# Combo Funds
