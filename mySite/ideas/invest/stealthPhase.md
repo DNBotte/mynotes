@@ -38,4 +38,4 @@ and all that jazz
 
 For now stick with: https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
 
-I. # Combo Funds
+# I. Combo Funds
