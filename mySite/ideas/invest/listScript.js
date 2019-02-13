@@ -5,11 +5,8 @@ var pound = [];
 for (var i =0; i < titles.length; i++) {  
  var pounder =  "# " + titles[i];
  pound.push(pounder);
-   dashes.push(titles[i].replace(/\s+/g, '-'));
- newTitles.push("[" + titles[i] + "]" + "(" + dashes[i] + ")");
- 
-
- 
+   dashes.push("#" + titles[i].replace(/\s+/g, '-'));
+ newTitles.push("[" + titles[i] + "]" + "(" + dashes[i] + ")" + "\n"); 
 }
 console.log(newTitles + " " + dashes + pound);
 
