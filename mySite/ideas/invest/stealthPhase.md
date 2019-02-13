@@ -36,18 +36,18 @@ and all that jazz
 
 For now stick with: https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
 
-[Combo Funds](Combo-Funds)
-[AI](AI)
-[Fusion Electricity](Fusion-Electricity)
-[Additive Manufacturing](Additive-Manufacturing)
-[Asteroid Mining](Asteroid-Mining)
-[Space Transportation](Space-Transportation)
-[Desalinization](Desalinization)
-[Invasive Species](Invasive-Species)
-[Lab Grown Agriculture](Lab-Grown-Agriculture)
-[3-D Transportation](3-D-Transportation)
-[Regenerative Medicine](Regenerative-Medicine)
-[Cyborg](Cyborg) 
+[Combo Funds](#Combo-Funds)
+[AI](#AI)
+[Fusion Electricity](#Fusion-Electricity)
+[Additive Manufacturing](#Additive-Manufacturing)
+[Asteroid Mining](#Asteroid-Mining)
+[Space Transportation](#Space-Transportation)
+[Desalinization](#Desalinization)
+[Invasive Species](#Invasive-Species)
+[Lab Grown Agriculture](#Lab-Grown-Agriculture)
+[3-D Transportation](#3-D-Transportation)
+[Regenerative Medicine](#Regenerative-Medicine)
+[Cyborg](#Cyborg) 
 
 # Combo Funds
 # AI
