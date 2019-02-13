@@ -8,6 +8,15 @@ py -3.6 -m pip install module %= only for Python 3.6 =%
 
 py -3.6 -m pip install --upgrade pip
 
+must import os first
+
 os.getcwd()
 
+os.listdir()
+
 os.chdir(r'C:\Users\intendedUser\Documents')
+
+import openpyxl
+
+with open("test.txt", "a") as myfile:
+    myfile.write("appended text")
