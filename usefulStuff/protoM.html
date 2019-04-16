@@ -1,0 +1,55 @@
+<input id = "search" placeholder="Search for..."></input>
+<input id = "mySearch" placeholder="My Search for..."></input>
+<button value = 'send' id = "submit" onclick="myFunction()">Calculate</button>
+
+<p>Rate 1:</p>
+<p id="target"></p>
+
+<p>Rate 2:</p>
+<p id="myTarget"></p>
+
+<div class = "alpha"></div>
+
+<script>
+function myFunction() {
+  var test = document.getElementById("search").value;
+  var myTest = document.getElementById("mySearch").value;
+  var top;
+  var bottom;
+  function happyLand(Q1, Q2) {
+    var Qs = Q1 + Q2;
+    var Qb;
+    var Rb;
+    var Px = 0.13;
+
+    if (Qs >= 25000) {
+      Qb = 25000;
+      Rb = 3075;
+  } else {
+      Qb = 15000;
+      Rb = 1975;
+  } 
+    var Qx = Qs - Qb;
+    var Pb = Rb/Qb;
+    var R1;
+    var R2;
+    var Rs;
+
+    //if (Q1 < Qb) {
+      R1 = Pb * Q1;
+      var Q2b = Qb - Q1;
+      var Q2x = Q2 - Q2b;
+      var R2b = Q2b * Pb;
+      var R2x = Q2x * Px;
+      R2 = R2b + R2x;
+
+  //}
+    top = R1;
+    bottom = R2;
+    console.log("Top: ", R1, " Q1: ", Q1, " Pb: ", Pb, " Bottom: ", R2, " Q2: ", Q2, " Px: ", Px);
+}
+  happyLand(test, myTest);              
+  document.getElementById("target").innerHTML = top;
+  document.getElementById("myTarget").innerHTML = bottom;
+}
+</script>
