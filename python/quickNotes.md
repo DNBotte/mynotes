@@ -17,6 +17,14 @@ os.system('cmd /k "cd C:\Users\user.name\AppData\Local\Programs\Python\Python38-
 # then add pip.exe install pkgName
 ```
 
+For 32-bit coinstallation:
+
+```python
+import os
+os.system('cmd /k "cd C:\\Users\\david.botte\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts"')
+print("pip.exe install _____")
+```
+
 ## LOOP BACKWARDS:
 
 ```python
