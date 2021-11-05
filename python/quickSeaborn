@@ -1,0 +1,7 @@
+# QUICK SEABORN
+
+### COUNT PLOT
+
+sns.countplot(x = 'class',
+              data = titanic,
+              order = titanic['class'].value_counts().index)
