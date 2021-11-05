@@ -1,0 +1,6 @@
+<h1><strong>QUICK PANDAS</strong></h1>
+<h4>So I don't have to search around everytime I need to use this stuff</h4>
+
+### OneLiner Regex
+
+df['cleanedUp'] = df['needsCleanedUp'].map(lambda x: re.sub(r'\W+', '', x))
