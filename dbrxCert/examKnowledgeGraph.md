@@ -107,6 +107,15 @@ JOIN meta.GAITopics t ON c.SectionID = t.SectionID
 JOIN meta.GAISubTopics s ON t.TopicID = s.TopicID
 ORDER BY c.SectionID, t.TopicID, s.SubTopicID
 ```
+
+## How to add more subtopics:
+
+```sql
+%sql
+INSERT INTO meta.gaisubtopics VALUES
+(4, 'Embedding models', 'Exam asks you to select based on cost/latency/quality', 2)
+```
+
 # PART II: Glossary
 
 ## Step 1: create and populate
