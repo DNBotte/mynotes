@@ -158,3 +158,14 @@ INSERT INTO meta.dbrxGlossary VALUES
   (2, 'embedding pipeline', 'A series of steps to convert text into a vector', NULL , NULL),
   (3, 'embedding model', 'A model that converts text into a vector', 'the model that does that conversion (e.g. all-MiniLM-L6-v2', NULL)
 ```
+```sql
+%sql
+INSERT INTO meta.dbrxGlossary VALUES 
+(6, 'fixed-size splitting', 'The splitting of a dataset into a training and a test set, where the test set is a fixed-size subset of the original dataset', 'brute-force split on one separator', NULL),
+(7, 'recursive splitting ', 'algo splits dataset into train/test set', 'tries \n\n to \n to . to ____ in order and respecting structure', NULL),
+(8, 'vector', 'dbrx: piece of text; me: embedding array', 'list of floats representing meaning in N-D space', NULL),
+(9, 'Delta table', 'table in a delta lake', 'DatabriDBrx  native table format (parquet + transaction log); can store chunks and vectors', NULL),
+(10, 'Unity Catalog', 'UC is a cloud-native data governance layer that enables you to share data securely across your organization', 'DBrx governance layer (workspace.meta lives here)', NULL);
+
+SELECT * FROM meta.dbrxGlossary
+```
