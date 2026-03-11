@@ -6,7 +6,9 @@ I asked anthropic for a hands-on tutorial experience. It started off with a list
 I decided it would be easiest to keep track of them and my progress through them if I were to upload the info into a database.
 This will work in a Databricks notebook after setting it to SQL
 
-# Step 1: Create schema for metadata (if one doesn't already exist)
+# PART I: SET UP
+
+## Step 1: Create schema for metadata (if one doesn't already exist)
 
 ```sql
 CREATE schema meta
@@ -16,9 +18,9 @@ CREATE schema meta
 _sqldf:pyspark.sql.connect.dataframe.DataFrame
 OK
 This result is stored as _sqldf and can be used in other Python and SQL cells.
-```
 
-# Step 2: Create a table for Gen AI Exam Contents:
+
+## Step 2: Create a table for Gen AI Exam Contents:
 
 ```sql
 %sql
@@ -42,7 +44,7 @@ INSERT INTO meta.GAIContents VALUES
   SELECT * FROM meta.gaicontents
 ```
 
-  # Step 3: Create a table for the topics of those subjects:
+ ## Step 3: Create a table for the topics of those subjects:
 
 ```sql
   %sql
@@ -62,7 +64,7 @@ INSERT INTO meta.GAITopics VALUES
   SELECT * FROM meta.gaitopics
 ```
 
-# Step 4: table for subtopics:
+## Step 4: table for subtopics:
 
 ```sql
 %sql
@@ -88,7 +90,7 @@ That's because I mean for this to all be related and work as a progress ledger i
 
 Unfortunately I hadn't thought of adding in the ledger/marking column while creating the table so that gets added in later (an alter table exercise)
 
-# Step 5: Verify joins work:
+## Step 5: Verify joins work:
 
 ```sql
 %sql
@@ -104,4 +106,39 @@ FROM meta.GAIContents c
 JOIN meta.GAITopics t ON c.SectionID = t.SectionID
 JOIN meta.GAISubTopics s ON t.TopicID = s.TopicID
 ORDER BY c.SectionID, t.TopicID, s.SubTopicID
+```
+# PART II: Glossary
+
+## Step 1: create and populate
+
+```sql
+%sql
+CREATE OR REPLACE TABLE meta.dbrxGlossary (
+  termID INT,
+  term STRING,
+  defDBrx STRING,
+  defS46 STRING,
+  SubTopicID INT,
+  CONSTRAINT pk_dbrxglossary PRIMARY KEY (termID),
+  CONSTRAINT fk_dbrxglossary_subtopic FOREIGN KEY (SubTopicID) REFERENCES meta.GAISubTopics(SubTopicID)
+);
+
+INSERT INTO meta.dbrxGlossary VALUES
+  (1, 'embedding', 'A vector representation of a piece of text', 'a chunk converted to a numeric vector hat captures semantic meaning', 3)
+```
+
+Validate:
+
+```sql
+%sql
+SELECT * FROM meta.dbrxglossary
+```
+
+Populate (continued):
+
+```sql
+%sql
+INSERT INTO meta.dbrxGlossary VALUES
+  (2, 'embedding pipeline', 'A series of steps to convert text into a vector', NULL , NULL),
+  (3, 'embedding model', 'A model that converts text into a vector', 'the model that does that conversion (e.g. all-MiniLM-L6-v2', NULL)
 ```
