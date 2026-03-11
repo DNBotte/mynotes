@@ -116,6 +116,13 @@ INSERT INTO meta.gaisubtopics VALUES
 (4, 'Embedding models', 'Exam asks you to select based on cost/latency/quality', 2)
 ```
 
+```sql
+%sql
+INSERT INTO meta.gaisubtopics VALUES
+(5, 'Chunk to vector to Delta table', 'The actual pipeline you will build', 2),
+(6, 'Writing to Unity Catalog', 'Exam tests UC-specific patterns', 2)
+```
+
 # PART II: Glossary
 
 ## Step 1: create and populate
